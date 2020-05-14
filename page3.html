@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+	
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="4eme.css"/>
+    <title>Devenir un Hunter !</title>
+
+</head>
+<body>
+	<header class="grid" id="tete">
+<img src="Media/logox.png" alt="HunterXhunter"/>
+
+
+</header>
+<nav>
+ 	<ul id="nav">
+ 		<li><a href="2emesite.html">Histoire</a></li>
+ 		<li><a href="page2.html" target="_blank">Personnages</a></li>
+ 		<li><a href="page3.hmtl">Devenir Hunter !</a></li>
+ 	</ul>
+ 
+ </nav>
+
+<h1 class="title">Devenir un vrai Hunter!</h1>
+<figure>
+<div id="video" class="video">
+<video src="Media/examen.mp4" width="700" controls poster="Media/sam.jpg"></video>
+</div>
+<figcaption class="text" id="damn">Bonjour à toi! Si tu es ici c'est parce que tu as cliqué sur "Devenir un Hunter". J'en déduis donc que tu souhaite devenir Hunter.<br/>
+Félicitation! Tu fais preuve d'un courage et d'une grande détermination pour avoir été jusqu'ici!<br/>Mais prends garde ! Ce n'est que le début de ton aventure...<br/>Avant toute choses et pour que l'on puisse valider ton dossier, nous aurions besoins de quelques informations sur toi et ton parcours ainsi que t'es capacités.</figcaption>
+</figure>
+
+<section class="section" class="bio">
+	<h1 class="titi">Formulaire d'inscription</h1>
+	<form method="post" action="traitement.php">
+		<p class="start">On va commencer par quelques informations classiques comme votre nom d'Hunter (il faut bien un début à tout).</p>
+			
+			<label for="pseudo">Ton pseudo <stong>d'Hunter</stong>:</label>
+			<input type="text" name="pseudo" id="pseudo" placeholder="Ex:Enzolito"/>
+			<br/>
+			<label for="pass">Ton mot de passe :</label>
+			<input type="password" name="pass" id="pass"/>
+			<br/>
+			<label for="birth">Ta date de naissance :</label>
+			<input type="date" name="birth" id="birth"/> 
+           
+           </form>
+    
+     <p class="aha">Merci! La première étape est faite! Passons à la suite maintenant..</p>
+    <img src="Media/gonkiki.jpg" alt="kiki"/>
+    <form method="post" action="traitement.php">
+    	
+    	<p class="start">Une partie plus intéréssante maintenant car on va parler de ton Nen! C'est à dire quel est ton type de pouvoir!</p>
+    	<input type="checkbox" name="renfor" id="renfor"/><label for="renfor">Renforcement</label><br/>
+    	<input type="checkbox" name="materia" id="materia"/><label for="materia">Matérialisation</label><br/>
+    	<input type="checkbox" name="transfor" id="transfor"/><label for="transfor">Transformation</label><br/>
+    	<input type="checkbox" name="emi" id="emi"/><label for="emi">Emission</label>
+    </form>
+    
+    <form method="post" action="traitement.php">
+    <p class="start">Maintenant tu vas un peu nous parler de ton parcour (Tes combats, ton entrainement ect..). Je veux tout savoir!</p>
+    <label for="carriere">Ton parcour :</label><br/>
+    <textarea name="carriere" id="carriere" maxlength="50" rows="4" cols="40"></textarea>    	
+    </form>
+    
+    <form method="post" action="taritement.php">
+        <p class="start">Dernière étape : il me faut tes coordonnées pour pouvoir ensuite te convoquer à l'examen des Hunters. Allez courage!</p>
+        <label for="contact">Ton e-mail :</label>
+        <input type="e-mail" name="email" id="contact" placeholder="Ex : Enzolito@hunter.nen" maxlength="15"/><br/>
+        <input class="sub" type="submit" value="Envoyez le formulaire"/>
+    </form>
+    <div>
+    	<p class="final">Félicitation! Tu viens de finaliser ton inscription pour l'examen de Hunter qui aura lieu très prochainement!<br/>
+    	Nous allons t'envoyer un mail de confirmation puis la date et le lieu de l'examen d'ici quelques jours.</p>
+    </div>
+
+
+
+</section>
+<footer class="grid" class="final">
+	
+
+<div class="manga" class="fut">
+	<h3>Mes derniers mangas</h3>
+		<ul>
+		 <li>Death Note</li>
+		 <li>Mob psycho100</li>
+		 <li>Overlord</li>
+		</ul>  
+</div>
+
+<div class="contact">
+	 <h3>Mes contacts</h3>
+	<ul><li>0607080910</li>
+	 <li><a href="mailtoEnzokonoha@rasengan.fr">Mon mail</a>
+	 </li>
+  </ul>
+</div>	
+
+</footer>
+</body>
+
+</html>
+
+
+
